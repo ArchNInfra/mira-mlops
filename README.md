@@ -67,4 +67,22 @@ It is designed to be reusable as a core module for future ML/AI projects within 
 
 Suggested layout:
 
+```bash
+mira-mlops/
+  flows/
+  tasks/
+  models/
+  artifacts/
+  expectations/     # optional Great Expectations checks
+  infra/            # optional Terraform for S3/IAM
+  docs/
+```
 
+## Status
+
+### 0.2 — Pipeline work in progress
+- Repo renamed to Mira
+- Preparing Prefect pipeline
+- Defining S3 model registry structure
+
+### 0.1 — Repository initialized
